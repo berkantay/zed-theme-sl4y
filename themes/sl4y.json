@@ -1,0 +1,111 @@
+{
+  "name": "sl4y",
+  "author": "Berkant Ay",
+  "themes": [
+    {
+      "name": "Sl4y dark",
+      "appearance": "dark",
+
+      "style": {
+        "background": "#000000",
+        "foreground": "#D7DAE0",
+        "accent": "#007ACC",
+        "cursor": "#FF00BB",
+        "selection": "#111111",
+        "gutter": "#0A0A0A"
+      },
+
+      "editor": {
+        "background": "#000000",
+        "gutter": "#0A0A0A",
+        "line_number": { "normal": "#444444", "active": "#CCCCCC" },
+        "indent_guide": "#151515",
+        "selection": "#111111",
+        "find_match": "#222222"
+      },
+
+      "ui": {
+        "element": { "background": "#000000" },
+        "border": {
+          "normal": "#151515",
+          "focused": "#222222",
+          "selected": "#222222"
+        },
+        "text": { "normal": "#D7DAE0", "muted": "#888888", "accent": "#007ACC" }
+      },
+
+      "terminal": {
+        "ansi": {
+          "black": "#000000",
+          "red": "#880000",
+          "green": "#D2F898",
+          "yellow": "#FFCC88",
+          "blue": "#007ACC",
+          "magenta": "#FF00BB",
+          "cyan": "#7FD5EA",
+          "white": "#D7DAE0",
+          "bright_black": "#444444",
+          "bright_red": "#FF8888",
+          "bright_green": "#C9FFA6",
+          "bright_yellow": "#FFD7A6",
+          "bright_blue": "#3399FF",
+          "bright_magenta": "#FF40D0",
+          "bright_cyan": "#A6E6F3",
+          "bright_white": "#FFFFFF"
+        }
+      },
+
+      "syntax": {
+        "comment": "#666666",
+        "keyword": "#FF00BB",
+        "operator": "#7FD5EA",
+        "function": "#007ACC",
+        "function.builtin": "#7FD5EA",
+        "type": "#7FD5EA",
+        "type.builtin": "#7FD5EA",
+        "variable": "#D7DAE0",
+        "property": "#CCCCCC",
+        "constant": "#FF8888",
+        "constant.numeric": "#906CFF",
+        "string": "#FFCC88",
+        "string.escape": "#FF40D0",
+        "boolean": "#FF8888",
+        "punctuation": "#A9B1C0",
+        "attribute": "#D2F898",
+        "tag": "#BB9AF7"
+      },
+
+      "badges": {
+        "info": { "background": "#222222", "foreground": "#7FD5EA" },
+        "success": { "background": "#111111", "foreground": "#D2F898" },
+        "warning": { "background": "#222222", "foreground": "#FFCC88" },
+        "error": { "background": "#220000", "foreground": "#FF8888" }
+      },
+
+      "statusbar": {
+        "background": "#000000",
+        "foreground": "#888888",
+        "accent": "#007ACC"
+      },
+
+      "palette_notes": {
+        "posh_execution_time_blue": "#007ACC",
+        "posh_status_red": "#880000",
+        "posh_status_fg": "#FF8888",
+        "posh_root_yellow": "#FFCC88",
+        "posh_os_session_bg": "#222222",
+        "posh_path_bg": "#444444",
+        "posh_path_fg": "#CCCCCC",
+        "posh_git_bg": "#D2F898",
+        "posh_git_fg": "#000000",
+        "posh_dotnet": "#7014EB",
+        "posh_go": "#7FD5EA",
+        "posh_python_bg": "#906CFF",
+        "posh_python_fg": "#100E23",
+        "posh_rust_bg": "#99908A",
+        "posh_rust_fg": "#193549",
+        "posh_shell_magenta": "#FF00BB"
+      }
+    }
+  ]
+}
